@@ -23,7 +23,7 @@ alias sl='ls'
 alias sc='screen -R'
 alias tm='tmux new-session -A -s main'
 alias clsc='pkill screen'
-alias cltm='tmux kill-session -a'
+alias cltm='tmux kill-session -a; tmux kill-session -t main'
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
