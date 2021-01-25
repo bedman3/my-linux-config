@@ -34,6 +34,9 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
+alias idea='~/jetbrain_scripts/idea'
+alias jb='~/jetbrains-toolbox-1.19.7784/jetbrains-toolbox'
+
 export LIBGL_ALWAYS_INDIRECT=1
 export DISPLAY=$(awk '/nameserver / {print $2; exit}' /etc/resolv.conf 2>/dev/null):0
 
@@ -172,5 +175,7 @@ bindkey -s "^[Oo" "/"
 
 bindkey '^[[1;5D' backward-word
 bindkey '^[[1;5C' forward-word
+
+cd ~
 
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=3,bg=red,bold,underline"
